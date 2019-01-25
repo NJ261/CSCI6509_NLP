@@ -1,0 +1,18 @@
+Levels of NLP:
+
+1. Morphology: It is where we study words in any language, analyze their structures, the way they are formed and the way they are related to other words.
+
+2. Syntax: It is where we define set of rules for arranging words in sentences and phrases.
+
+3. Phonetics: It is related with the physical sound of the language where we use various computer processing methods. It can be further classified into speech generation and analysis.
+
+4. Phonology: It is mainly concerned about organizing sound (linguistic processing)in the systematic order
+
+5. Semantics: At this stage, we are concerned with the meaning of the words in any language and also how words can be combined into the sentences.
+
+6. Pragmatics: It is about grasping the tone of sentences like how they are said in different situations and how they are interpreted.
+
+7. Discourse: It is about understanding overall structure of the language such as grasping complex inter-sentence, and how previous and next sentence are interpreted.
+
+Reference:
+1. Course Materials by Vlado Keselj

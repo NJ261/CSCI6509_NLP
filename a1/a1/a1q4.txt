@@ -1,0 +1,26 @@
+a)
+three words: aabbab, ab, aaab, bbab
+Language: word sequence which reach to ending state, here we can say that it will accpets string which are ending with 'ab'. we use following regular expression "\b(\w+ing)\b" (ignore quotes)
+
+CODE: (python)
+import re
+input_string = input("Enter your input string here")
+print(re.findall(r'\b(\w+ing)\b',s))
+
+
+b)
+
+	States		|	a		|	b	|
+------------------------+-----------------------+---------------+
+S:	q0q1q2		|	q3q4		|	q5	|
+------------------------+-----------------------+---------------+
+	q3q4		|	q0q1q2q7q8	|	q6	|
+------------------------+-----------------------+---------------+
+	q5		|	empty		|	q0q1q2q8|
+------------------------+-----------------------+---------------+
+	q0q1q2q8	|	q3q4		|	q5	|
+------------------------+-----------------------+---------------+
+	q0q1q2q7q8	|	q3q4		|	q5	|
+------------------------+-----------------------+---------------+
+F:	q6		|	empty		|	empty	|
+------------------------+-----------------------+---------------+
