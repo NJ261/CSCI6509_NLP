@@ -32,7 +32,15 @@ class MainClass:
             textOperations.wordTokenize()
             
         except Exception as error:
-            inputText = input("Enter your input text: ")
+            while True:
+                try:
+                    line = input()
+                    if line:
+                        lines.append(line)
+                except EOFError:
+                    break
+                
+            inputText = '\n'.join(lines)
             textOperations = TextOperations(inputText)
             textOperations.wordTokenize()
             
