@@ -1,0 +1,2 @@
+10 most common words are: more, come, came, that's, my, back, know, i'll, old, in
+The number of hapax legomena is 7248
