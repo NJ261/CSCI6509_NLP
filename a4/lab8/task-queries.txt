@@ -1,0 +1,4 @@
+child(ann,mary). 
+grandchild(ann,mary). 
+grandchild(X,mary).
+grandchild(tom,X).
